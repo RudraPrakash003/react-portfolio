@@ -21,7 +21,7 @@ node --version
 git --version
 ```
 
-# Getting Started :dart:
+# Getting Started
 
 ### Clone the repo
 
@@ -43,9 +43,9 @@ Then, run the development server:
 
 ```
 npm start
-
+```
 ### and
-
+```
 node server.js
 ```
 
