@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Portfolio created by using React and Styled with Material UI and Node.js for Backend server.
 
-## Available Scripts
+# Demo
 
-In the project directory, you can run:
 
-### `npm start`
+You can see the live demo [here](https://6656c205f3ad335001e1e8f5--rudra-prakash-portfolio.netlify.app/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### You will need to download Git and Node to run this project
 
-### `npm test`
+- [Git](https://git-scm.com/downloads)
+- [Node](https://nodejs.org/en/download/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Make sure you have the latest version of both Git and Node on your computer.
 
-### `npm run build`
+```
+node --version
+git --version
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Getting Started :dart:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Clone the repo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To clone the repo click on the code button at the top right of the page and copy the URL.
 
-### `npm run eject`
+```
+git clone https://github.com/RudraPrakash003/react-portfolio.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+cd react-portfolio
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install packages from the root directory
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Then, run the development server:
 
-## Learn More
+```
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### and
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+node server.js
+```
 
-### Code Splitting
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+# Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Goto [google.com](https://myaccount.google.com/security) and turn on the 2-Factor Authentication then create an [App Password](https://myaccount.google.com/apppasswords) for the mail authentication. 
+Please create a new `.env` file in Server folder.
 
-### Making a Progressive Web App
+```env
+SMTP_HOST=smtp.google.com
+SMTP_PORT=587
+SMTP_SECURE=false
+EMAIL_USER=your_sender_mail
+EMAIL_PASSWORD=your_sender_App_password
+RECIPIENT_EMAIL=your_recipient_mail
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
